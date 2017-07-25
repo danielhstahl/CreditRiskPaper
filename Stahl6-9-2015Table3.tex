@@ -1,0 +1,15 @@
+\begin{minipage}{\textwidth}
+\begin{center}
+\begin{framed}
+\begin{tabular}{c|c|c|c|c|c|c|c|c}
+m & 8 & 16 & 32 & 64 & 128 & 256 & 512 & 1024 \\
+\hline
+FFT \(M_1\) & 0.62 &  2.01 & -0.68 & -2.71 & -2.17 & -2.26 & -1.81 & -1.93 \\
+COS \(M_1\): &-1.93 &  -2.95 &  -3.95 &  -7.88 &  -8.34 &  -8.38 &  -9.24 & -16.51\\
+FFT \(M_2\): & 4.13 & 5.20 & 1.70 & 0.45 & 1.08 & 0.14 & 1.10 & 0.92 \\
+COS \(M_2\):   & 0.86 & -2.23 &  -2.85 &-6.43 & -11.21 & -12.93 & -11.59 & -12.41\\
+\end{tabular} 
+\captionof{table}{Convergence (in log relative error) for \(h=1024\), \(n=10,000\),  \(\alpha=.3\), \(t=1\), \(Z_0=1.1\), \(p=.0005\), \(n=2^b\), \(\sigma=.5\).} \label{table3}
+\end{framed}
+\end{center}
+\end{minipage}
