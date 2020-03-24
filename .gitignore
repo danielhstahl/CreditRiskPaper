@@ -3,5 +3,7 @@
 *.docx
 *.txt
 *.log
+*.aux
+*.out
 ResponseToReferee.pdf
 ResponseToReferee.tex
